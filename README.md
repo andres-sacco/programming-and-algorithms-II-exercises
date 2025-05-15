@@ -9,7 +9,8 @@ Este repositorio contiene todo lo necesario para poder seguir la materia desde e
 Los siguientes son los puntos más importantes en este archivo:
 - [Requisitos](#requisitos)
 - [Comprobar requisitos](#comprobar-requisitos)
-- [FAQ](#faq)
+- [Estándares de código](#estándares-de-código)
+- [Estructura del proyecto](#estructura-del-proyecto)
 
 ## Requisitos
 
@@ -45,14 +46,6 @@ Si instalaste en tu computadora algunas de estas herramientas anteriormente o lo
    git version 2.34.1
    ````
 
-
-ESTRUCTURA
-NOMENCLATURA
-PREGUNTAS ACERCA DE PORQUE USAR UNA U OTRA
-LINKS DE FORMAS DE INSTALACION Y VIDEOS
-REGLAS A SEGUIR
-CODE CONVENTIONS
-
 ## Estándares de código
 
 Java tiene una serie de reglas definidas para desarrollar algo, ya sea una aplicación o una librería, y que todos los desarrolladores usen los mismos criterios. Existen las siguientes formas de validar si se está siguiendo el formato correcto: 
@@ -85,12 +78,5 @@ src/
                   └── util
 ````
 
-Como se puede ver en la estructura existen una serie de paquetes donde cada uno tiene una funcionalidad en particular. En la siguiente tabla se detalla cada uno de los paquetes como asi tambien si deben o no tener prefijos los archivos en su interior:
+Como se puede ver en la estructura existen una serie de paquetes donde cada uno tiene una funcionalidad en particular.
 
-
-
-https://www.jetbrains.com/lp/devecosystem-2023/java/
-
-https://www.jrebel.com/success/resources/2024-Java-developer-productivity-report
-
-https://survey.stackoverflow.co/2024/technology#1-integrated-development-environment
