@@ -4,8 +4,7 @@ package org.uade.structure.definition;
 public interface MultipleDictionaryADT {
 
     /**
-     * Descripcion: Agrega un elemento a la estructura. Precondición: La estructura no debe sobrepasar la capacidad. Si
-     * el valor existe pisa el contenido
+     * Descripcion: Agrega un elemento a la estructura. Precondición: No tiene, acepta valores duplicados.
      */
     void add(int key, int value);
 
