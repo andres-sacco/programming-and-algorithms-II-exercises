@@ -8,7 +8,6 @@ import org.uade.structure.implementation.fixed.StaticSimpleDictionaryADT;
 public class SimpleDictionaryADTUtil extends BaseUtil {
 
     public static void print(SimpleDictionaryADT dictionary) {
-        SimpleDictionaryADT copy = copy(dictionary);
         SetADT keys = dictionary.getKeys();
         while (!keys.isEmpty()) {
             int key = keys.choose();
